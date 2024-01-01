@@ -36,7 +36,7 @@ Example: Leaking the honeytoken in a configuration file
     "slack_webhook": "https://hooks.slack.com/services/your/slack/webhook"
 }
 ```
-###Moitor the usage of the fake credential through slack channel.
+### Moitor the usage of the fake credential through slack channel.
 Every time the tokens are accessed, it will send a message to the slack group.
 ```
 Honeytoken Alert!

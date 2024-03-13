@@ -149,3 +149,7 @@ The number of ggcanaries is limited to 5000 (max number of users linked to an AW
 ## Number of tags
 
 Each ggcanary can have at most 30 tags. The tag names can be different for each ggcanary.
+
+### Note
+I've used GitGaurdian's GGcanary repo to do this project.
+here is the Original repo link https://github.com/GitGuardian/ggcanary

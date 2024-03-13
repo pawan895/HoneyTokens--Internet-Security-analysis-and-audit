@@ -1,7 +1,8 @@
 users = {
-  ggtoken1 = {
-    tag_1  = "John Doe"
-    source = "email"
+  honeyalert1 = {
+    tag_1  = "GitHub"
+    tag_1  = "backend project"
+    source = "VCS"
   }
-  ggtoken2 = {}
+ 
 }

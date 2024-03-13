@@ -15,7 +15,7 @@ else
         set +e
         key_id=$(echo $user_data | jq -r .access_key_id)
         key_secret=$(echo $user_data | jq -r .access_key_secret)
-        aws_response=$(AWS_ACCESS_KEY_ID=$key_id AWS_SECRET_ACCESS_KEY=$key_secret AWS_DEFAULT_REGION=us-west-2 aws s3 ls 2>&1)
+        aws_response=$(AWS_ACCESS_KEY_ID=$key_id AWS_SECRET_ACCESS_KEY=$key_secret AWS_DEFAULT_REGION=us-east-1 aws s3 ls 2>&1)
         # expect "An error occurred (AccessDenied) when calling the ListBuckets operation: Access Denied"
         if [[ "$aws_response" == *AccessDenied* ]]
         then

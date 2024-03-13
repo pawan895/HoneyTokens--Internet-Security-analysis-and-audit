@@ -1,5 +1,9 @@
 # Detecting intrusion with canary tokens
 
+## Note
+I've used GitGaurdian's GGcanary repo to do this project.
+here is the Original repo link https://github.com/GitGuardian/ggcanary
+
 ## What is a canary token
 
 A canary token is a resource that is monitored for access or tampering. Usually, canary tokens come in the form of a URL, file, API key, or email, etc., and trigger alerts whenever someone (presumably an attacker) trips over them.
@@ -150,6 +154,4 @@ The number of ggcanaries is limited to 5000 (max number of users linked to an AW
 
 Each ggcanary can have at most 30 tags. The tag names can be different for each ggcanary.
 
-# Note
-I've used GitGaurdian's GGcanary repo to do this project.
-here is the Original repo link https://github.com/GitGuardian/ggcanary
+
